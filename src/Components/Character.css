@@ -1,0 +1,13 @@
+.character {
+  margin-right: 10px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.character__tooltip {
+  display: none;
+}
+
+.character:hover .character__tooltip {
+  display: block;
+}
