@@ -15,4 +15,8 @@ Character.propTypes = {
   character: PropTypes.object,
 };
 
+Character.defaultProps = {
+  character: {},
+};
+
 export default Character;

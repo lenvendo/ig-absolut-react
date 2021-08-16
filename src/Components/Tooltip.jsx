@@ -16,4 +16,8 @@ Tooltip.propTypes = {
   className: PropTypes.string,
 };
 
+Tooltip.defaultProps = {
+  className: "",
+};
+
 export default Tooltip;
