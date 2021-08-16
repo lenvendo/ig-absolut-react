@@ -55,7 +55,7 @@ function App() {
         {characters.map((character) => (
           <Character character={character} key={character.id} />
         ))}
-        {!characters.length && <p className="">Не найдено</p>}
+        {!characters.length && query && <p>Не найдено</p>}
       </div>
     </div>
   );
